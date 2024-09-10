@@ -14,6 +14,12 @@ const config = {
         printWidth: 100,
       },
     },
+    {
+      files: '*.md',
+      options: {
+        printWidth: 100,
+      }
+    },
   ],
 };
 
