@@ -14,6 +14,9 @@ export default [
     files: ['webpack.*'],
     languageOptions: {
       sourceType: 'commonjs',
+      env: {
+        node: true,
+      }
     },
   },
 ];

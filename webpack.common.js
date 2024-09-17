@@ -1,5 +1,4 @@
 const path = require('path');
-const process = require('node:process');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -14,7 +13,7 @@ module.exports = {
   ],
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(path.dirname(process.cwd()), 'dist'),
+    path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
   module: {
